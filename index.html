@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="./index.css">
+
+    <script src="./index.js"></script>
+
+    <!-- CSS only -->
+
+    <!-- MDB  css-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css" rel="stylesheet" />
+
+    <!-- boostrap-css -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <!-- boostrap-css -->
+
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+
+
+
+
+
+</head>
+
+<body>
+
+    <!-- /* nabvbAR */ -->
+    <nav>
+        <div class="container-fluid bg-dark ">
+            <div class="row">
+                <div class="col-md-4  col-12 col-sm-6 d-none d-sm-block   ">
+                    <p class="text-white navbar-icon-padding"><i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                        <i class="fa-brands fa-snapchat"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </p>
+                </div>
+                <div class="col-4 d-none justify-content-center d-md-block d-flex text-white">
+                    <p style="line-height: 40px;padding-top: 1%;">Welcome To Our Aveda Fashion Store !</p>
+                </div>
+                <div
+                    class="col-md-4  col-6 ms-5 ms-sm-0   text-white justify-content-center   justify-content-sm-end   d-flex navbar-conatsct-padding">
+                    <span class="pe-3">Wishlist</span><span>Contact</span>
+                </div>
+            </div>
+
+
+        </div>
+    </nav>
+
+
+
+    <nav class="navbar bg-light d-block d-lg-none">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler border-0 pt-1  col-1" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="col-10 col-sm-11 offset-1 justify-content-center offset-sm-0  d-flex">
+                <p class="pt-4" onclick="searchbar1()">
+
+                    <i class="fa-solid fa-magnifying-glass" style="font-size: 130%;" id="searchbarbutton1"></i>
+
+                <p onclick="searchclose1()" class="pt-4 ">
+                    <i class="fa-solid fa-xmark " style="font-size: 130%;" id="searchbarclose1"></i>
+                </p>
+                </p>
+
+                <img src="./photo/logo.png" alt="" width="300px" height="50px" class="ps-3 ps-sm-5  pt-4">
+
+                <p class="ps-4 ps-sm-5 pt-4  col-1" style="font-size: 130%;"><i class="fa-regular fa-user"></i></p>
+                <div class=" position-relative nav-shop-products-main ps-4 ps-sm-5 pt-4  " style="font-size: 130%;">
+                    <i class="fa-solid fa-wallet"></i>
+
+
+
+                </div>
+
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <img src="./photo/logo.png" alt="">
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <details>
+                                <summary>FASHION</summary>
+                                <details class="ps-5">
+                                    <summary>Men</summary>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                </details>
+                                <details class="ps-5">
+                                    <summary>Women</summary>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                </details>
+                                <details class="ps-5">
+                                    <summary>Kids</summary>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                </details>
+                            </details>
+
+                            <hr>
+                            <details>
+                                <summary>CATEGORY</summary>
+                                <details class="ps-5">
+                                    <summary>Kids</summary>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+
+                                </details>
+
+                            </details>
+                            <hr>
+                            <details>
+                                <summary>INCLUDED PAGES</summary>
+                                <details class="ps-5">
+                                    <summary>Men</summary>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                </details>
+
+                                <details class="ps-5">
+                                    <summary>Men</summary>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                </details>
+                                <details class="ps-5">
+                                    <summary>Women</summary>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                </details>
+                                <details class="ps-5">
+                                    <summary>Kids</summary>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                    <p class="pt-2 ps-2">T-Shirt & shirt</p>
+                                </details>
+
+                            </details>
+
+                            <hr>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#">FACq</a>
+
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="navaber-search-class1" class="mt-2">
+            <input type="text" placeholder="search products..." class="p-3">
+            <button class="bg-dark ms-2"><i class="bi bi-search float-end text-white p-3"></i></button>
+        </div>
+
+
+    </nav>
+
+
+
+
+    <nav>
+        <div class="container-fluid" style="height: 40px;z-index: 1;">
+            <div class="row d-lg-flex d-none">
+                <div class="col-4 col-lg-2 navbar-spac-logo ">
+                    <img src="./photo/logo.png" alt="">
+                </div>
+
+                <div class="col-6 d-none d-lg-block">
+                    <ul class="d-flex navbar-list-space justify-content-center d-flex list-style-none">
+
+                        <div class="navbar-fashion-hover" style="z-index: 1;">
+                            <li>Fashion</li>
+
+
+                            <div class="main-fashion container-fluid pb-5">
+
+                                <div class="row">
+                                    <div class="col-2 ps-5 pt-4 ps-5">
+
+                                        <h4 class="border-bottom border-1 mb-3">Men</h4>
+
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>T-shirt & Shirt</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Sports & active wear</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Blazers & coats</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>T-shirts & Tanks</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Coats & Jackets</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Jackets</P>
+                                        </a>
+
+
+                                    </div>
+
+
+                                    <div class="col-2 man-1 pt-4 ps-5">
+
+                                        <h4 class="border-bottom border-1 mb-3">Women</h4>
+
+
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>T-shirts & shirt</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Coats & Jackets</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Sweatshirts</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Denim</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Dresse</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Sarees</P>
+                                        </a>
+
+                                    </div>
+
+                                    <div class="col-2 man-1 pt-4 ps-5">
+
+                                        <h4 class="border-bottom border-1 mb-3">Kids</h4>
+
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Bath Accessories</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Hanky Set</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>White</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Shirt</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Short</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Denim</P>
+                                        </a>
+
+                                    </div>
+
+                                    <div class="col-6 man-1 pt-4 d-flex">
+                                        <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/files/Aveda_1.jpg?v=1653636124"
+                                            alt="" width="50%" height="50%" class="img-fluid">
+                                        <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/files/Aveda_1.jpg?v=1653636124"
+                                            alt="" width="50%" height="50%" class="ps-3  pe-5  img-fluid">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="navbar-category-hover" style="z-index: 1;">
+                            <li>category</li>
+                            <div class="main-category container-fluid pb-5 translatey-middle">
+                                <div class="row">
+
+                                    <div class="col-6  pt-4 ps-5 pe-2">
+
+                                        <h4 class="border-bottom border-1 mb-3">Kids</h4>
+
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Bath Accessories</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Hanky Set</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>White</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Shirt</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Short</P>
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <P>Denim</P>
+                                        </a>
+
+
+                                    </div>
+
+                                    <div class="col-6">
+
+                                        <h4 class="border-bottom border-1 mb-3 pt-4 ps-2 pe-2">Trending Product</h4>
+                                        <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/products/15_34ba8529-c027-4d40-9220-ffbbb058df5c.png?v=1605251977"
+                                            alt="" width="50%" height="50%">
+
+                                        <p class="text-dark pt-3">Lumberjack Shirt</p>
+
+                                        <p style="color:  rgb(110, 108, 60);"><del
+                                                class="text-secondary pe-2">$20</del>$42.00</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="navbar-Including-hover" style="z-index: 1;">
+                            <li>Including Pages</li>
+                            <div class="main-Including container-fluid pb-3 translatey-middle">
+                                <div class="row">
+
+                                    <div class="col-12  pt-5 ps-4 pe-2">
+
+
+                                        <a href="./2-buy/buyproducts.html" target="_blank">
+                                            <p>Wishlist</p>
+
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <p>Blog</p>
+
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <p>404</p>
+
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <p>Collection</p>
+
+                                        </a>
+                                        <a href="./2-buy/buyproducts.html">
+                                            <p>Conatct</p>
+                                        </a>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div>
+                            <li>About Us</li>
+                        </div>
+                        <div>
+                            <li class="">FAQs</li>
+                        </div>
+                    </ul>
+                </div>
+
+
+                <div class="col-2 offset-2  p-4 d-lg-flex d-none">
+                    <p class="" onclick="searchbar()">
+                        <abbr title="search for products " style="cursor:pointer;">
+                            <i class="fa-solid fa-magnifying-glass" style="font-size: 100%;" id="searchbarbutton"></i>
+                        </abbr>
+
+                    <p onclick="searchclose()" style="cursor:pointer;">
+                        <i class="fa-solid fa-xmark " style="font-size:100%;" id="searchbarclose"></i>
+                    </p>
+                    </p>
+
+                    <p class="ps-4 ps-sm-5 col-1" style="font-size:100%;"><i class="fa-regular fa-user"></i></p>
+
+                    <div class=" position-relative nav-shop-products-main ps-4 ps-sm-5   " style="font-size: 100%;">
+                        <i class="fa-solid fa-wallet"></i>
+
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                            <span id="data1"></span>
+                        </span>
+                        <div class="nav-shop-products">
+                            <p class=" text-center p-5 pt-0">YOUAR CARD</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="navaber-search-class" class="mt-5">
+            <input type="text" placeholder="search products..." class="p-3">
+            <button class="bg-dark ms-2"><i class="bi bi-search  text-white p-3"></i></button>
+        </div>
+
+    </nav>
+
+    <!-- navbar -->
+
+
+    <!-- hero img -->
+    <div class="container-fluid mt-0 mt-md-5">
+
+        <div class="row">
+
+            <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active  ">
+                        <div class="card border-0  ">
+                            <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/files/slider2_67a71704-1fbe-4ce4-99bc-3135d95a446f.png?v=1614320343"
+                                class="card-img d-block  " alt="..." width="100%" height="100%">
+                            <div class="card-img-overlay hero-img-up-text-1 " data-aos="fade-down">
+                                <b class="" style=" font-family:cursive ;"><i class="fs-3">T-Shirts</i></b>
+                                <h1 class="hero-img-up-text-men mt-3">Men's</h1>
+                                <h1 class="hero-img-up-text-fashion">Fashion!</h1>
+                                <p style="color: #717171;   font-family:cursive ; "
+                                    class="fs-5  mt-3  mb-3 d-none  d-md-block">500+
+                                    Deals On Top Brands & Big Offer On Frist Order</p>
+                                <button class="hero-img-up-button">SHOP NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card border-0">
+                            <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/files/slider1_895b4217-1e05-4a42-abbe-ec7a38db855d.png?v=1614320343"
+                                class="card-img d-block w-100  img-fluid" alt="...">
+                            <div class="card-img-overlay">
+                                <div class="card-img-overlay hero-img-up-text-2 " data-aos="fade-down">
+                                    <b class=" " style="font-family:cursive ; "><i class="fs-3">Spring</i></b>
+                                    <h1 class="hero-img-up-text-men mt-3">Trendy</h1>
+                                    <h1 class="hero-img-up-text-fashion">Fashion!</h1>
+                                    <p style="color: #717171;   font-family:cursive ; "
+                                        class="fs-5  mt-3  mb-3 d-none d-md-block">
+                                        500+ Deals On Top Brands & Big Offer On Frist Order</p>
+                                    <button class="hero-img-up-button">SHOP NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev text-dark" type="button"
+                    data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next text-dark" type="button"
+                    data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--hero img-->
+
+    <!-- Summer Fasion Start -->
+
+    <div class="container mt-5">
+        <div class="row">
+
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/files/aboutusbanner.png?v=1614316340" alt=""
+                    width="100%" class="img-fluid rounded-2  hover">
+            </div>
+
+
+            <div class="col-xl-8 col-lg-6 col-md-6 col-sm-12">
+                <div class="mt-xl-5 mt-lg-5 mt-sm-0">
+                    <b>
+                        <i class="ms-5 mt-5 Summer-Fasion-up-text-about fs-5">ALL ABOUT US</i>
+                    </b>
+                </div>
+                <div class="mt-xl-2 mt-lg-2  mt-sm-0">
+                    <b class="ms-5   fs-1">
+                        Summer Fashion
+                    </b>
+                </div>
+
+                <div class="mt-2 mt-sm-0">
+                    <p class="ms-5 ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                        maecenas accumsan lacus vel facilisis.
+                    </p>
+                </div>
+
+                <div>
+                    <p class="ms-5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore .
+                    </p>
+                </div>
+
+
+                <div class="mt-xl-5 mt-sm-0">
+                    <button class="rounded-pill  ms-5 pt-2 pb-2 px-4 py-4 Summer-Fasion-up-text-readmore">
+                        READ MORE
+                    </button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Summer Fasion End -->
+
+
+
+
+
+
+    <!-- top products start -->
+
+
+
+    <section>
+        <h1 class="text-center mt-5">TOP PRODUCTS</h1>
+
+
+        <div class="container mt-3">
+            <div class="row text-center justify-content-center d-flex">
+                <div class="col-12 text-center">
+                    <button class="rounded-pill text-light ms-4 pt-2 pb-2 ps-5 pe-5 "
+                        style="background-color:  rgb(110, 108, 60);border: none;">
+                        FEATURED
+                    </button>
+
+                    <button class="rounded-pill border text-secondary  ms-2 mt-2 mt-sm-0  pt-2 pb-2  ps-4 pe-4 ">
+                        NEW ARRIVALS
+                    </button>
+
+                    <button class="rounded-pill border text-secondary ms-2  mt-2 mt-sm-0 pt-2 pb-2   ps-4 pe-4">
+                        BEST SELLERS
+                    </button>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-4">
+                    <div class="position-relative position-relative-example">
+                        <a href="./1-buy/buyproducts.html" target="_blank">
+                            <img src="./photo/11.jpg" alt="" onmouseover="this.src='photo/p1-1.jpg'" class="img-fluid"
+                                onmouseout="this.src='photo/11.jpg'">
+                        </a>
+                        <div class="position-absolute top-0 start-0"><button
+                                class="btn-rounded p-2 border-0 sale text-light"
+                                style="background-color: rgb(127,188,30);">Sale</button></div>
+                        <div class="text-center mt-2">
+                            <b>8 Grandded Shirt.</b>
+                            <p><b>$23.00</b></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-4">
+                    <div class="position-relative position-relative-example">
+                        <a href="./2-buy/buyproducts.html">
+                            <img src="./photo/p2-1.jpg" alt="" onmouseover="this.src='photo/p2-2.jpg'" class="img-fluid"
+                                onmouseout="this.src='photo/p2-1.jpg'">
+                        </a>
+                        <div class="position-absolute top-0 start-0"><button
+                                class="btn-rounded p-2 border-0 sale text-light"
+                                style="background-color: rgb(127,188,30);">Sale</button></div>
+                        <div class="text-center mt-2">
+                            <b>Aloha Shirt For Men</b>
+                            <p><del>$36.00</del><b>$34.00</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-4">
+                    <div class="position-relative position-relative-example">
+
+                        <a href="./3-buy/buyproducts.html">
+
+                            <img src="./photo/p3-1.jpg" alt="" onmouseover="this.src='photo/p3-2.jpg'" class="img-fluid"
+                                onmouseout="this.src='photo/p3-1.jpg'">
+
+                        </a>
+                        <div class="position-absolute top-0 start-0"><button
+                                class="btn-rounded p-2 border-0 sale text-light"
+                                style="background-color: rgb(127,188,30);">Sale</button></div>
+                        <div class="text-center mt-2">
+                            <b>Epaulettte</b>
+                            <p><del>$74.00</del><b>$65.00</b></p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-4">
+                    <div class="position-relative position-relative-example">
+
+                        <a href="./4-buy/buyproducts.html">
+
+                            <img src="./photo/p4-1.jpg" alt="" onmouseover="this.src='photo/p4-2.jpg'" class="img-fluid"
+                                onmouseout="this.src='photo/p3-1.jpg'">
+
+                        </a>
+                        <div class="position-absolute  top-0 start-0"><button
+                                class="btn-rounded p-2 border-0 text-light "
+                                style="background-color: rgb(127,188,30);">Sale</button></div>
+                        <div class="text-center mt-2">
+                            <b>Fancy Shirt For Men</b>
+                            <p><b>$98.00</b></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center">
+                <button class="rounded-pill text-center pt-2 pb-2 ps-5 pe-5 Summer-Fasion-up-text-readmore ">
+                    VIEW ALL
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- top products end -->
+
+
+    <!-- time section -->
+
+    <section>
+        <div class="container-fluid mt-5" style="padding: 0%;">
+            <div class="row  time-back-main-div" style="margin: 0%;">
+                <div class="col-10 col-sm-12 col-md-9 justify-content-center  d-flex">
+                    <div class="bg-light bg-opacity-75 pt-5  pb-5  text-center mt-5 mb-5  ms-5 time-sec-main-paddding">
+                        <h4>For The Best</h4>
+                        <h1>Discount Sale</h1>
+                        <p>The Big Offer Day Extra 10% Off</p>
+                        <div class="d-flex text-center justify-content-center">
+                            <div class="rounded-circle bg-white border p-1 pt-1 ps-3 pe-3 time-sec-bg-hover">
+                                <span>290</span> <br>
+                                <div>Days</div>
+                            </div>
+
+                            <div class="rounded-circle bg-white border ms-2 p-1 pt-1 ps-3 pe-3 time-sec-bg-hover">
+                                <span>02</span> <br>
+                                <div>Hours</div>
+                            </div>
+
+                            <div class="rounded-circle bg-white border ms-2 p-1 pt-1 ps-3 pe-3 time-sec-bg-hover">
+                                <span>07</span> <br>
+                                <div>Minss</div>
+                            </div>
+
+                            <div class="rounded-circle text-white border time-sec-bg-hover ms-2 p-1 pt-1 ps-3 pe-3 "
+                                style="background-color: rgb(110,108,60);">
+                                <span id="vk">12</span> <br>
+                                <div>Secss</div>
+                            </div>
+                        </div>
+
+                        <button class="border-0 mt-5 text-white rounded-pill p-2 ps-4 pe-4 time-sec-buttom-hovee">VIEW
+                            COLLECTION</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- time section -->
+
+
+
+    <!-- condition-->
+
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-2 ">
+                            <h1><i class="fa-regular fa-clock condition-icon-roted"></i></h1>
+                        </div>
+
+                        <div class="col-xl-10 col-lg-10 col-md-10 ">
+                            <b>
+                                Order Before 16:00
+                            </b>
+                            <p>
+                                Next Bussiness Day At Home
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-2 ">
+                            <h1><i class="fa-solid fa-dollar-sign condition-icon-roted"></i></h1>
+                        </div>
+
+                        <div class="col-xl-10 col-lg-10 col-md-10 ">
+                            <b>
+                                Money Back
+                            </b>
+                            <p>
+                                14 Days To Change Your Mind
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-2 ">
+                            <h1> <i class="fa-sharp fa-solid fa-circle-plus condition-icon-roted"></i></h1>
+                        </div>
+
+                        <div class="col-xl-10 col-lg-10 col-md-10 ">
+                            <b>
+                                1000 Products Add
+                            </b>
+                            <p>
+                                Products Added Every Day
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
+    <!-- condition-->
+
+
+    <!-- 2 imagges start -->
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <img src="photo/2-1.webp" alt="" width="100%">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <img src="photo/2-2.webp" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+
+    <!-- 2 imagges end -->
+
+
+
+
+    <!-- Our Colllection Start -->
+
+
+    <div class="container mt-5">
+        <h1 class="text-center">Our Collection</h1>
+
+        <div class="row mt-3">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <img src="./photo/wo-1.webp" alt="" width="100%">
+                <div class="text-center"><b>Women</b></div>
+                <p class="text-center">20 items</p>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <img src="photo/wo-2.webp" alt="" width="100%">
+                <div class="text-center"><b>Men</b></div>
+                <p class="text-center">20 items</p>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <img src="photo/wo3-3.webp" alt="" width="100%">
+                <div class="text-center"><b>Kids</b></div>
+                <p class="text-center">20 items</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Our Colllection End -->
+
+
+
+
+
+    <!-- Special Products start -->
+
+
+
+
+    <h1 class="text-center mt-5">SPECIAL PRODUCTS</h1>
+
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-4">
+                <div class="position-relative  Special-Products-hover-3icon-main-div">
+                    <a href="./1-buy/buyproducts.html">
+                        <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/products/12_e26513ef-b372-40bc-b1aa-8c43d914d315_720x.png?v=1605251656"
+                            alt="" width="100%" class="position-absolute imggg1">
+                        <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/products/15_f9a77ba1-6439-471d-be7e-f23c87b643a9_720x.png?v=1605251889"
+                            alt="" width="100%" class="position-relative imggg2">
+                    </a>
+                    <div class="position-absolute top-0 start-0"><button class="btn-rounded p-2 text-light border-0 "
+                            style="background-color: rgb(127,188,30);">Sale</button></div>
+
+                    <div class=" Special-Products-hover-3icon text-center position-absolute ">
+                        <p class="  ps-2 pe-2 pb-1 pt-1"><i class="fa-solid fa-eye"></i></p>
+                        <p class="  ps-2 pe-2 pb-1 pt-1"><i class="fa-regular fa-heart"></i></p>
+                        <p class="  ps-2 pe-2 pb-1 pt-1"><i class="fa-solid fa-shop"></i></p>
+                    </div>
+                    <div class="text-center">
+                        <b>8 Grandded Shirt.</b>
+                        <p><del>$30.00</del><b>$23.00</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-4">
+                <div class="position-relative position-relative-example Special-Products-hover-3icon-main-div">
+                    <a href="./1-buy/buyproducts.html">
+                        <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/products/18_9f8cd3d5-6a98-4ae0-ac12-25fd56bedfe1_720x.png?v=1605252568"
+                            alt="" width="100%" class="position-absolute imggg1">
+                        <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/products/11_0f2e2494-f1c8-44fd-af23-978f3fcffaad_720x.png?v=1605251565"
+                            alt="" width="100%" class="position-relative imggg2">
+                    </a>
+                    <div class="position-absolute top-0 start-0"><button class="btn-rounded p-2 text-light border-0 "
+                            style="background-color: rgb(127,188,30);">Sale</button></div>
+                    <div class=" Special-Products-hover-3icon text-center position-absolute ">
+                        <p class="  ps-2 pe-2 pb-1 pt-1"><i class="fa-solid fa-eye"></i></p>
+                        <p class="  ps-2 pe-2 pb-1 pt-1"><i class="fa-regular fa-heart"></i></p>
+                        <p class="  ps-2 pe-2 pb-1 pt-1"><i class="fa-solid fa-shop"></i></p>
+                    </div>
+                    <div class="text-center">
+                        <b>Aloha Shirt For Men</b>
+                        <p><del>$36.00</del><b>$34.00</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-4">
+                <div class="position-relative position-relative-example Special-Products-hover-3icon-main-div">
+                    <a href="./3-buy/buyproducts.html">
+                        <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/products/9_c9eccf02-cec5-417a-96e2-245ab776275d_720x.png?v=1605251494"
+                            alt="" width="100%" class="position-absolute imggg1">
+                        <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/products/16_07c9937e-fa87-4ecf-ac79-6788e5ae643c_720x.png?v=1605251977"
+                            alt="" width="100%" class="position-relative imggg2">
+                    </a>
+                    <div class="position-absolute top-0 start-0"><button class="btn-rounded p-2 text-light border-0 "
+                            style="background-color: rgb(127,188,30);">Sale</button></div>
+                    <div class=" Special-Products-hover-3icon text-center position-absolute ">
+                        <p class="  ps-2 pe-2 pb-1 pt-1"><i class="fa-solid fa-eye"></i></p>
+                        <p class="  ps-2 pe-2 pb-1 pt-1"><i class="fa-regular fa-heart"></i></p>
+                        <p class="  ps-2 pe-2 pb-1 pt-1"><i class="fa-solid fa-shop"></i></p>
+                    </div>
+                    <div class="text-center">
+                        <b>Epaulettte</b>
+                        <p><del>$74.00</del><b>$65.00</b></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-4">
+                <div class="position-relative position-relative-example Special-Products-hover-3icon-main-div">
+                    <a href="./4-buy/buyproducts.html">
+                        <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/products/6_ab0fd6e2-8566-4b89-862b-d9f603846c76_720x.png?v=1605251354"
+                            alt="" width="100%" class="position-absolute imggg1">
+                        <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/products/4_b77ffde1-a4fe-4ec5-8cba-ae4ae9d1e503.png?v=1605252646"
+                            alt="" width="100%" class="position-relative imggg2">
+                    </a>
+                    <div class="position-absolute top-0 start-0"><button class="btn-rounded text-light p-2 border-0 "
+                            style="background-color: rgb(127,188,30);">Sale</button></div>
+                    <div class=" Special-Products-hover-3icon text-center position-absolute ">
+                        <p class="  ps-2 pe-2 pb-1 pt-1"><i class="fa-solid fa-eye"></i></p>
+                        <p class="  ps-2 pe-2 pb-1 pt-1"><i class="fa-regular fa-heart"></i></p>
+                        <p class="  ps-2 pe-2 pb-1 pt-1"><i class="fa-solid fa-shop"></i></p>
+                    </div>
+                    <div class="text-center">
+                        <b>Fancy Shirt For Men</b>
+                        <p><b>$98.00</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="text-center">
+        <button class="rounded-pill text-center pt-2 pb-2 ps-5 pe-5 Summer-Fasion-up-text-readmore ">
+            VIEW ALL
+        </button>
+    </div>
+
+
+
+
+
+    <!-- Special Produts End -->
+
+
+
+
+    <!-- condition img -->
+
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-center d-flex">
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 d-flex justify-content-center">
+                <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/files/b6_130x130@2x.png?v=1614316345" alt=""
+                    width="50%" class="condition-icon-roted">
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 d-flex justify-content-center">
+                <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/files/b5_130x130@2x.png?v=1614316345" alt=""
+                    width="50%" class="condition-icon-roted">
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 d-flex justify-content-center">
+                <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/files/b4_130x130@2x.png?v=1614316345" alt=""
+                    width="50%" class="condition-icon-roted">
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 d-flex justify-content-center">
+                <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/files/b3_130x130@2x.png?v=1614316346" alt=""
+                    width="50%" class="condition-icon-roted">
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 d-flex justify-content-center">
+                <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/files/b2_130x130@2x.png?v=1614316346" alt=""
+                    width="50%" class="condition-icon-roted">
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 d-flex justify-content-center">
+                <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/files/b1_130x130@2x.png?v=1614316346" alt=""
+                    width="50%" class="condition-icon-roted">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- condition im big  -->
+
+
+    <!-- latest news Start -->
+
+    <h1 class="text-center">LATEST NEWS</h1>
+
+
+    <div class="container">
+        <div class="card-group">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 card border-0">
+                    <div class="bg-image hover-zoom ">
+                        <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/articles/8.png?v=1604644306"
+                            width="100%" class="card-img-top " alt="Hollywood Sign on The Hill" />
+                    </div>
+                    <div class="card-body ">
+                        <h5 class="card-title text-center">Viderer voluptatum te eum</h5>
+                        <p class="card-text text-center">Faded short sleeves t-shirt with high neckline. Soft and
+                            stretchy
+                            material for a comfortable fit.
+                        </p>
+                        <button
+                            class="rounded-pill pt-2 pb-2 px-4 py-4 readmore d-flex m-auto Summer-Fasion-up-text-readmore">
+                            READ MORE
+                        </button>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 card border-0">
+                    <div class="bg-image hover-zoom ">
+                        <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/articles/3.png?v=1604644355"
+                            width="100%" class="card-img-top" alt="Palm Springs Road" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Nec intellegat deseruisse</h5>
+                        <p class="card-text text-center">Faded short sleeves t-shirt with high neckline. Soft and
+                            stretchy
+                            material for a comfortable fit.
+                        </p>
+                        <button class="rounded-pill pt-2 pb-2 px-4 py-4  d-flex m-auto Summer-Fasion-up-text-readmore">
+                            READ MORE
+                        </button>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 card border-0">
+                    <div class="bg-image hover-zoom">
+                        <img src="https://cdn.shopify.com/s/files/1/0054/0567/1479/articles/1.png?v=1604644403p"
+                            width="100%" class="card-img-top" alt="Los Angeles Skyscrapers" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Proin faucibus tristiquem</h5>
+                        <p class="card-text text-center">Faded short sleeves t-shirt with high neckline. Soft and
+                            stretchy
+                            material for a comfortable fit.
+                        </p>
+                        <button class="rounded-pill pt-2 pb-2 px-4 py-4 d-flex  m-auto Summer-Fasion-up-text-readmore">
+                            READ MORE
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- latest news end -->
+
+
+
+
+
+
+
+    <!-- newsletter start  -->
+
+    <section>
+        <div class="container-fluid mt-5">
+            <div class="row justify-content-center d-flex">
+                <div class="position-relative ">
+                    <img src="./photo/newsletterbackground.jpg" alt="" height="500px" width="100%">
+                </div>
+
+                <div class="position-absolute col-12 col-xl-5 mt-5 ">
+                    <h5 class="text-center text-white mt-xl-5 mt-sm-0"><b>CONNECT TO AVEDA & CO.</b></h5>
+
+                    <h1 class="text-center text-white mt-xl-3 mt-sm-0">
+                        Join Our Newsletter
+                    </h1>
+
+                    <p class="text-center text-white mt-xl-3 mt-sm-0">
+                        Hey you, sign up it only takes a second to be the first to find out about our latest news
+                        and
+                        <br>
+                        promotions…
+                    </p>
+
+                    <div class="input-group mt-1 justify-content-center d-flex">
+                        <div class="form mt-5 " style="width: 80%;">
+                            <input type="search" id="form1" placeholder="Your email"
+                                class="form-control  ps-3 pe-3 pt-3 pb-3 rounded-pill text-bg-light newsletter-input-group " />
+
+                        </div>
+                        <button type="button"
+                            class="newsletter-subscribe mt-5 3 rounded-pill text-light ps-3 pe-3 pt-2 pb-2">
+                            SUBSCRIBE
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- newsletter end  -->
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center  text-md-start mt-5 pt-5 pb-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-12 col-sm-5 col-md-4 mx-auto mb-4">
+                        <!-- Content -->
+                        <div class="row">
+                            <div class="col-3">
+                                <h3><button class="btn-rounded Address"><i
+                                            class="fa-sharp fa-solid fa-location-dot"></i></button></h3>
+                            </div>
+                            <div class="col-9">
+                                <b>Address</b>
+                                <p>4005, Silver Business Point India</p>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-3">
+                                <h3><button class="btn-rounded Phone"><i class="fa-solid fa-phone"></i></button>
+                                </h3>
+                            </div>
+                            <div class="col-9">
+                                <b>Phone</b>
+                                <p>9988776655</p>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-3">
+                                <h3><button class="btn-rounded Email"><i class="fa-solid fa-envelope"></i></button>
+                                </h3>
+                            </div>
+                            <div class="col-9">
+                                <b>Email</b>
+                                <p>info@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-12 col-sm-4 col-md-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <b>Your Account</b>
+                        <a href="#">Personal Info</a>
+                        <a href="#">Orders</a>
+                        <a href="#">Credit Slips</a>
+                        <a href="#">Address</a>
+                        <a href="#">My Wishlist</a>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-12 col-sm-4 col-md-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <b>Our Company</b>
+                        <a href="#">About Us</a>
+                        <a href="#">Brand Assets</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Sitemap</a>
+                        <a href="#">Secure Payment</a>
+                    </div>
+                    <!-- Grid column -->
+                    <div class="col-12 col-sm-4 col-md-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <b>Products</b>
+                        <a href="#">New Product</a>
+                        <a href="#">Specials</a>
+                        <a href="#">Best Product</a>
+                        <a href="#">Price Drop</a>
+                        <a href="#">Delivery</a>
+                    </div>
+                    <!-- Grid column -->
+                    <div class="col-12 col-sm-4 col-md-2 mx-auto mb-md-0 mb-4">
+                        <b>Extra</b>
+                        <a href="#">Our Stores</a>
+                        <a href="#">Brands</a>
+                        <a href="#">Newsletter</a>
+                        <a href="#">Blogs</a>
+                        <a href="#">Wishlist</a>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+
+    </footer>
+    <!-- Footer -->
+
+
+
+
+
+    <!-- copywrite start -->
+
+    <div class="copywrite">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 mt-3">
+                    <p class="text-center">© 2022, Aveda Sectioned Shopify Theme</p>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-2 text-center">
+                            <h1><i class="fa-brands fa-cc-apple-pay"></i></h1>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-2 text-center">
+                            <h1><i class="fa-brands fa-google-pay"></i></h1>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-2 text-center">
+                            <h1><i class="fa-brands fa-cc-visa"></i></h1>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-2 text-center">
+                            <h1><i class="fa-brands fa-cc-mastercard"></i></h1>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-2 text-center">
+                            <h1><i class="fa-brands fa-cc-discover"></i></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- copywrite end -->
+
+
+    <!-- JavaScript Bundle with Popper -->
+
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+
+
+
+    <!-- /* nabvbAR */ -->
+
+    <!-- coding.school.code@gmail.com -->
+
+
+</body>
+
+</html>

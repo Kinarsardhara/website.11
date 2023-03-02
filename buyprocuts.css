@@ -1,0 +1,110 @@
+/* 
+shoping strat */
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.sideimg {
+    height: 93px;
+    width: 100px;
+    border-radius: 5px;
+    border-bottom: 1px solid black;
+}
+
+
+.margggin_shop {
+    margin: 40px 0px 40px 0px;
+}
+
+.incremnet-count {
+    border: 1px solid black;
+    padding: 9px 0px 11px 0px;
+    border-radius: 5px;
+
+    width: auto;
+}
+
+.increment1 {
+    border: none;
+    font-size: 30px;
+    background-color: transparent;
+    padding: 0px 25px;
+}
+
+.decrement1 {
+    border: none;
+    font-size: 30px;
+    background-color: transparent;
+    padding: 0px 25px;
+}
+
+.cart {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 70px;
+    border-radius: 5px;
+}
+
+.paying{
+    background-color: #FFC439;
+    color: black;
+    text-align: center;
+    padding: 12px 0px 8px 0px;
+    border-radius: 100px;
+    border: none;
+    width: 100%;
+}
+
+
+
+
+/* end */
+
+
+ 
+ /* <!-- buy section -->
+  */
+ 
+  #vi-2{
+     display: none;
+  }
+  #vi-3{
+     display: none;
+  }
+ 
+ 
+  .buy-section-star-hover{
+    margin-top: -20px;
+    color: grey;
+ 
+  }
+  .buy-section-star-hover i{
+  margin-left: 3px;
+ 
+  }
+ 
+  .buy-section-star-hover i:hover{
+   
+   color: goldenrod;
+    }
+  /* <!-- buy section --> */
+
+
+
+  a {
+    text-decoration: none !important;
+    min-width: fit-content;
+    width: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+}
+
+button {
+    transition: 0.5s;
+} 
